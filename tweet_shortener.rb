@@ -16,9 +16,7 @@ def dictionary
 end
 
 def word_substituter (tweet)
-  tweet = []
-  dictionary.each { |k,v| tweet.sub!(k,v) }
- end
+
 end
 
   
